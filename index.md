@@ -1,10 +1,6 @@
 <!-- This is just random text, testing -->
-<head>
 # Hi, I'm Marty
-</head>
-<body>
 ## Let's learn together!
-</body>
 
 # My Projects
 Here is a list of projects I am working on:
