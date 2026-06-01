@@ -1,10 +1,6 @@
 <!-- This is just random text, testing -->
-<head>
 # Hi, I'm Marty
-</head>
-<body>
 ## Let's learn together!
-</body>
 
 # My Projects
 Here is a list of projects I am working on:
@@ -14,7 +10,13 @@ I am interested in helping people connect with technology
 
 # My Blog
 I am really excited to blog my journey on GitHub.com
-
+<ul>
+{% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+</ul>
 # Get in Touch
 <ul>
     <li>
